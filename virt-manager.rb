@@ -22,7 +22,6 @@ class VirtManager < Formula
   depends_on "osinfo-db"
   depends_on "py2cairo"
   depends_on "pygobject3"
-  depends_on "python@2" if MacOS.version <= :snow_leopard
   depends_on "spice-gtk"
   depends_on "vte3"
 
