@@ -21,7 +21,7 @@ class VirtManager < Formula
   depends_on "libxml2"
   depends_on "osinfo-db"
   depends_on "py2cairo"
-  depends_on "pygobject3" => "with-python@2"
+  depends_on "pygobject3"
   depends_on "python@2" if MacOS.version <= :snow_leopard
   depends_on "spice-gtk"
   depends_on "vte3"
